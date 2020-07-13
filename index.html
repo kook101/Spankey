@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Spankey!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+    <!-- import the webpage's javascript file -->
+   
+  </head>  
+  <body>
+<div class="title_spanky">
+  <h2 class="title_spanky_h2"><a id="title_spanky" href="https://spankey.glitch.me/">Spankey!</a></h2>
+  <span id="about">
+    Sound On -
+    Press the key and play with my body-*
+  </span>
+    
+    </div>
+
+    <div class="bodyPart">
+      <p>Q</p> <!-- Thigh-->
+      <p>W</p><!-- Butt-->
+      <p>E</p><!-- Belly-->
+      <p>A</p><!-- Cheek-->
+      <p>S</p><!-- Clap-->
+
+      
+            <p>D</p><!-- Sole-->
+            <p> P</p><!-- Forehead-->
+            <p>O</p><!-- Calf-->
+            <p> I</p><!-- Chest-->
+      
+     <p>L</p> <!-- Arm-->
+      
+      <p>K</p> <!-- Shoulder-->
+        <p>J</p> <!-- Neck-->
+      
+        
+        
+        
+         
+       
+        
+       
+      
+        
+       
+      
+        
+      
+    </div>
+    <div id="bodyVisuals">
+      <div class="visRow">
+        <div class="visBlock" id="Thigh-vis"></div>
+        <div class="visBlock" id="Butt-vis"></div>
+        <div class="visBlock" id="Belly-vis"></div>
+        <div class="visBlock" id="Cheek-vis"></div>
+      </div>
+      <div class="visRow">
+        <div class="visBlock" id="Clap-vis"></div>
+        <div class="visBlock" id="Sole-vis"></div>
+        <div class="visBlock" id="Forehead-vis"></div>
+        <div class="visBlock" id="Calf-vis"></div>
+      </div>
+      <div class="visRow">
+        <div class="visBlock" id="Chest-vis"></div>
+        <div class="visBlock" id="Arm-vis"></div>
+        <div class="visBlock" id="Shoulder-vis"></div>
+        <div class="visBlock" id="Neck-vis"></div>
+      </div>
+
+    </div>
+   
+   <!--Body Sounds-->
+    <div class="bodySounds">
+    
+    <audio id="Thigh" src="https://cdn.glitch.com/4e6d0ef6-3ef8-45d0-8705-67e72644e8a8%2F01_Thigh.mp3?v=1569004787342" preload="auto"></audio>
+    <audio id="Butt" src="https://cdn.glitch.com/4e6d0ef6-3ef8-45d0-8705-67e72644e8a8%2F02_Butt.mp3?v=1569004792946" preload="auto"></audio>
+    <audio id="Belly" src="https://cdn.glitch.com/4e6d0ef6-3ef8-45d0-8705-67e72644e8a8%2F03_Belly.mp3?v=1569004794578" preload="auto"></audio>
+    <audio id="Cheek" src="https://cdn.glitch.com/4e6d0ef6-3ef8-45d0-8705-67e72644e8a8%2F04_Cheek.mp3?v=1569004796269" preload="auto"></audio>
+    <audio id="Clap" src="https://cdn.glitch.com/4e6d0ef6-3ef8-45d0-8705-67e72644e8a8%2F05_Clap.mp3?v=1569004797563" preload="auto"></audio>
+    <audio id="Sole" src="https://cdn.glitch.com/4e6d0ef6-3ef8-45d0-8705-67e72644e8a8%2F06_Sole.mp3?v=1569004800405" preload="auto"></audio>
+    <audio id="Forehead" src="https://cdn.glitch.com/4e6d0ef6-3ef8-45d0-8705-67e72644e8a8%2F07_Forehead.mp3?v=1569004801684" preload="auto"></audio>
+    <audio id="Calf" src="https://cdn.glitch.com/4e6d0ef6-3ef8-45d0-8705-67e72644e8a8%2F08_Calf.mp3?v=1569004802868" preload="auto"></audio>
+    <audio id="Chest" src="https://cdn.glitch.com/4e6d0ef6-3ef8-45d0-8705-67e72644e8a8%2F09_Chest.mp3?v=1569004804583" preload="auto"></audio>
+    <audio id="Arm" src="https://cdn.glitch.com/4e6d0ef6-3ef8-45d0-8705-67e72644e8a8%2F10_Arms.mp3?v=1569004805678" preload="auto"></audio>
+    <audio id="Shoulder" src="https://cdn.glitch.com/4e6d0ef6-3ef8-45d0-8705-67e72644e8a8%2F11_Shoulder.mp3?v=1569004806967" preload="auto"></audio>
+    <audio id="Neck" src="https://cdn.glitch.com/4e6d0ef6-3ef8-45d0-8705-67e72644e8a8%2F12_Neck.mp3?v=1569004808260" preload="auto"></audio>
+</div>
+    
+
+<div class="popup_text" id = "popup_text1">
+  bla bl bla 
+  </div>
+
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+<!--     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script> -->
+  </body>
+</html>

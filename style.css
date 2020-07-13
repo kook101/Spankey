@@ -1,0 +1,76 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    /*margin: 2em;*/
+    width: 100vw;
+    height: 100vh;
+  }
+h2 {
+  text-align: center;
+  text-position: relative;
+
+}
+
+.title_spanky {
+ text-align: center;
+  position: relative;
+}
+
+#title_spanky {
+  text-decoration: none;
+  }
+  
+p {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 24vw;
+    height: 33vh;
+  
+    line-height: 33vh;
+    text-align: center;
+}
+
+  
+#bodyVisuals{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.visRow{
+  height: calc(100vh / 3);
+  
+}
+
+.visBlock{
+  width: calc(100vw / 4 - 10px);
+  height: 100%;
+  background-color: rgba(255, 255, 255);
+  display: inline-block;
+}
+
+
+.popup_text {
+  position: absolute;
+    left: 40%;
+    top: 40%;
+    font-size: 100px;
+color: white;
+  background-color: none;
+    padding: 10px;
+  display:none;
+
+}
+
+.bodyPart {
+  font-size:1.2rem;
+  font-weight: bold;
+}
+/* #spanky {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+} */
+
